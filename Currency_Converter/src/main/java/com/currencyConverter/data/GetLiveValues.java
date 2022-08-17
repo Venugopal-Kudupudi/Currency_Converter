@@ -27,7 +27,7 @@ public class GetLiveValues
 		String data = "";
 		
 		try {
-			String url = "https://api.apilayer.com/fixer/latest?symbols=inr%2Cusd%2Ceur%2Cils%2Caud%2Crub%2Cjpy%2Cpkr%2Cnpr%2Clkr%2Cbdt%2Cbtn%2Ccny%2Ctwd%2Cgbp%2Cirr%22%2Csar%2Ckwd%2Cqar%2Cbhd%2Caed%2Ccad%2Cafn%2Ckrw%2Ckpw%2Cvnd%2Cphp%2Cthb%2Csgd%2Cchf%2Cmyr%2Ckhr%2Cmvr&base=usd&apikey=kc3PNm4USzbyWMBuGXT4tdsL81wVL8Wb";
+			String url = "https://api.apilayer.com/fixer/latest?symbols=inr%2Cusd%2Ceur%2Cils%2Caud%2Crub%2Cjpy%2Cpkr%2Cnpr%2Clkr%2Cbdt%2Cbtn%2Ccny%2Ctwd%2Cgbp%2Cirr%22%2Csar%2Ckwd%2Cqar%2Cbhd%2Caed%2Ccad%2Cafn%2Ckrw%2Ckpw%2Cvnd%2Cphp%2Cthb%2Csgd%2Cchf%2Cmyr%2Ckhr%2Cmvr&base=usd&apikey=******4USzbyWM****T4tdsL81wV****";
 			URL obj = new URL(url);
 			
 			HttpURLConnection con = (HttpURLConnection) obj.openConnection();
